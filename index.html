@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="has-text-centered">
+          <h2 class="is-size-2">To do App</h2>
+        </div>
+        <div class="columns m-5">
+          <div class="column mx-2 is-6 box-1">
+            <form name="todo-form">
+              <h5 class="is-size-5">Welcome</h5>
+              <div class="field my-5">
+                <label for="todo" class="label">Todo</label>
+                <div class="control">
+                  <input
+                    class="input"
+                    type="text"
+                    id="todo"
+                    placeholder="enter what you want to do here"
+                  />
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button type="submit" id="my-btn" class="button is-info">
+                    submit
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="column mx-2 is-6 box-1" id="list-box">
+            <!-- here my todos should be visible -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

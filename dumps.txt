@@ -1,0 +1,24 @@
+  <div class="card">
+              <div class="card-content">
+                <div class="media is-align-items-center">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        class="is-rounded"
+                        src="https://i.pravatar.cc/150?img=4"
+                        alt="Profile picture"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
